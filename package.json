@@ -23,7 +23,7 @@
     "url": "https://github.com/mskelton/omni-comment-cli/issues"
   },
   "dependencies": {
-    "@omni-comment/core": "^1.0.5",
+    "@omni-comment/core": "^1.1.0",
     "commander": "^12.0.0"
   },
   "devDependencies": {
