@@ -61,7 +61,7 @@ npx @omni-comment/cli \
 
 ## How does it work?
 
-I built this action to solve a problem we have at [Ramp](https://ramp.com/) of lots of CI outputs
+I built this library to solve a problem we have at [Ramp](https://ramp.com/) of lots of CI outputs
 that each need to post back to the PR via comments. The problem is, the more comments you have, the
 more noisy it gets.
 
