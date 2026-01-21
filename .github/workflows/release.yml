@@ -26,17 +26,14 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: "lts/*"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
         run: npm ci
 
       - name: Verify provenance
         run: npm audit signatures
-
-      - name: Build
-        run: npm run build
 
       - name: Publish
         run: npx semantic-release

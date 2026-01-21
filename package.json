@@ -31,7 +31,7 @@
     "format:check": "oxfmt --check"
   },
   "dependencies": {
-    "@omni-comment/core": "^1.1.0",
+    "@omni-comment/core": "^1.1.1",
     "commander": "^12.0.0"
   },
   "devDependencies": {
