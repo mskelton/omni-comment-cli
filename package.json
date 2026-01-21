@@ -2,29 +2,33 @@
   "name": "@omni-comment/cli",
   "version": "0.0.0-semantically-released",
   "description": "Combine outputs from many jobs into a single comment",
+  "keywords": [
+    "actions",
+    "comment",
+    "github"
+  ],
+  "homepage": "https://github.com/mskelton/omni-comment-cli#readme",
+  "bugs": {
+    "url": "https://github.com/mskelton/omni-comment-cli/issues"
+  },
+  "license": "ISC",
+  "author": "Mark Skelton",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mskelton/omni-comment-cli.git"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "bin": {
     "omni-comment": "lib/cli.js"
   },
-  "keywords": [
-    "github",
-    "actions",
-    "comment"
-  ],
   "files": [
     "lib"
   ],
-  "author": "Mark Skelton",
-  "license": "ISC",
-  "homepage": "https://github.com/mskelton/omni-comment-cli#readme",
-  "bugs": {
-    "url": "https://github.com/mskelton/omni-comment-cli/issues"
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "format": "oxfmt --write",
+    "format:check": "oxfmt --check"
   },
   "dependencies": {
     "@omni-comment/core": "^1.1.0",
@@ -33,7 +37,7 @@
   "devDependencies": {
     "@types/commander": "^2.12.2",
     "@types/node": "^22.14.1",
-    "prettier": "^3.5.3",
+    "oxfmt": "^0.26.0",
     "semantic-release": "^25.0.2"
   }
 }
